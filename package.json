@@ -1,0 +1,11 @@
+{
+  "name": "clases-de-claude",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sitio estático para repasar y estudiar las clases, skills y agentes trabajados con Claude.",
+  "type": "module",
+  "scripts": {
+    "indexar": "node scripts/generar-indice.mjs",
+    "dev": "npx --yes serve . -l 4321"
+  }
+}

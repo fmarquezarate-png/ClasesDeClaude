@@ -1,0 +1,71 @@
+{
+  "actualizado": "2026-09-17",
+  "secciones": {
+    "clases": [
+      {
+        "slug": "00-como-funciona-este-sitio",
+        "titulo": "Cómo funciona este sitio",
+        "resumen": "La clase cero. Cómo está montado el repositorio y cómo añadir contenido sin romper nada.",
+        "fecha": "2026-09-17",
+        "tags": [
+          "setup",
+          "repositorio",
+          "markdown"
+        ],
+        "modulo": "Módulo 0 · Setup",
+        "categoria": "",
+        "nivel": "Básico",
+        "archivo": "contenido/clases/00-como-funciona-este-sitio.md"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "anatomia-de-un-skill",
+        "titulo": "Anatomía de un skill",
+        "resumen": "Qué es un skill de Claude, de qué partes se compone y cuándo conviene crear uno.",
+        "fecha": "2026-09-17",
+        "tags": [
+          "skills",
+          "SKILL.md"
+        ],
+        "modulo": "",
+        "categoria": "Fundamentos",
+        "nivel": "",
+        "archivo": "contenido/skills/anatomia-de-un-skill.md"
+      }
+    ],
+    "agentes": [
+      {
+        "slug": "que-es-un-subagente",
+        "titulo": "Qué es un subagente",
+        "resumen": "Cuándo delegar trabajo a un agente aparte y cuándo es un desperdicio de tokens.",
+        "fecha": "2026-09-17",
+        "tags": [
+          "agentes",
+          "subagentes",
+          "contexto"
+        ],
+        "modulo": "",
+        "categoria": "Fundamentos",
+        "nivel": "",
+        "archivo": "contenido/agentes/que-es-un-subagente.md"
+      }
+    ],
+    "otros": [
+      {
+        "slug": "glosario",
+        "titulo": "Glosario",
+        "resumen": "Los términos que van saliendo en las clases, en castellano y sin humo.",
+        "fecha": "2026-09-17",
+        "tags": [
+          "glosario",
+          "vocabulario"
+        ],
+        "modulo": "",
+        "categoria": "Referencia",
+        "nivel": "",
+        "archivo": "contenido/otros/glosario.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="oscuro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clases de Claude</title>
+<meta name="description" content="Repositorio personal de clases, skills y agentes trabajados con Claude.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <button class="hamburguesa" id="btn-menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-lateral">
+    <span></span><span></span><span></span>
+  </button>
+
+  <a class="marca" href="#/inicio">
+    <span class="marca-punto"></span>
+    <span class="marca-texto">Clases de Claude</span>
+  </a>
+
+  <div class="cabecera-acciones">
+    <button class="icono" id="btn-buscar" aria-label="Buscar">🔎</button>
+    <button class="icono" id="btn-tema" aria-label="Cambiar tema">🌙</button>
+  </div>
+</header>
+
+<div class="velo" id="velo" hidden></div>
+
+<nav class="menu" id="menu-lateral" aria-label="Navegación principal" aria-hidden="true">
+  <div class="menu-cabecera">
+    <span class="menu-titulo">Secciones</span>
+    <button class="icono" id="btn-cerrar-menu" aria-label="Cerrar menú">✕</button>
+  </div>
+
+  <ul class="cintas" id="cintas"><!-- generado por js/menu.js --></ul>
+
+  <div class="menu-pie">
+    <div class="progreso-global">
+      <span id="progreso-texto">0 de 0 estudiados</span>
+      <div class="barra"><div class="barra-relleno" id="progreso-barra"></div></div>
+    </div>
+    <a class="menu-enlace" href="https://github.com/fmarquezarate-png/ClasesDeClaude" target="_blank" rel="noopener">Ver repositorio ↗</a>
+  </div>
+</nav>
+
+<main id="contenido" class="contenido">
+  <div id="vista" class="vista"><p class="cargando">Cargando…</p></div>
+</main>
+
+<footer class="pie">
+  <span>Clases de Claude · construido con Claude Code</span>
+</footer>
+
+<!-- Buscador global (overlay) -->
+<div class="buscador" id="buscador" hidden>
+  <div class="buscador-caja">
+    <input type="search" id="buscador-input" placeholder="Buscar en clases, skills, agentes…" autocomplete="off">
+    <ul id="buscador-resultados" class="buscador-resultados"></ul>
+  </div>
+</div>
+
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/vendor/purify.min.js"></script>
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
